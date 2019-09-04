@@ -12,7 +12,7 @@ const config = {
     appId: "1:792435220668:web:a86d5f61ee0dd115"
   };
 
-  //save user to database if not exists
+  //save user to firestore if not exists
   export const createUserProfileDocument = async (userAuth,additionalData) => {
     if(!userAuth) return;
 
